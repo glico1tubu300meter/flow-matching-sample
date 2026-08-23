@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+
+# generated checkpoints / auto-downloaded datasets (created next to each script)
+scripts/*/checkpoints/
+scripts/*/data/
+
+# generated figures / gifs / tensorboard logs
+out/
+tb_logs/
