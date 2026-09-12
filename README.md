@@ -5,6 +5,10 @@ PyTorch による Flow Matching (Conditional Flow Matching / Rectified Flow) の
 同じ考え方を段階的に拡張している。各グループのコードと結果は、それぞれの
 サブディレクトリの README にまとめてある。
 
+![CIFAR-10 生成結果(DiT, クラス条件付き, CFG w=1)](assets/cifar10_grid_dit.png)
+
+*CIFAR-10 の10クラスをラベル条件付きで生成した例(`scripts/cifar10/` の DiT 実装)。行が各クラスに対応。*
+
 ## セットアップ
 
 ```bash
